@@ -1,0 +1,35 @@
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\SeleniumCalculatorTest.dll
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\SeleniumCalculatorTest.pdb
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\nunit.framework.dll
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\ThoughtWorks.Selenium.Core.dll
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\WebDriver.dll
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\WebDriver.Support.dll
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\nunit.framework.xml
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\ThoughtWorks.Selenium.Core.xml
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\WebDriver.pdb
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\WebDriver.xml
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\WebDriver.Support.pdb
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\WebDriver.Support.xml
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\obj\Debug\SeleniumCalculatorTest.dll
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\obj\Debug\SeleniumCalculatorTest.pdb
+c:\users\pc-edson\documents\visual studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\dataTestSet.csv
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\dataTestSet.csv
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\SeleniumCalculatorTest.dll
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\SeleniumCalculatorTest.pdb
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\nunit.framework.dll
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\nunit.framework.xml
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\WebDriver.pdb
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\WebDriver.xml
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\WebDriver.Support.pdb
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\WebDriver.Support.xml
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\obj\Debug\SeleniumCalculatorTest.csprojResolveAssemblyReference.cache
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\obj\Debug\SeleniumCalculatorTest.dll
+C:\Users\PC-Edson\Desktop\CodedUI-Selenium\SeleniumCalculatorTest\SeleniumCalculatorTest\obj\Debug\SeleniumCalculatorTest.pdb

@@ -1,0 +1,93 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Students Index</title>
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link href="~/Scripts/DataTables-1.10.7/media/css/jquery.dataTables.css" rel="stylesheet" />
+    <link href="~/Scripts/DataTables-1.10.7/media/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <script src="~/Scripts/DataTables-1.10.7/media/js/jquery.js"></script>
+    <script src="~/Scripts/DataTables-1.10.7/media/js/jquery.dataTables.js"></script>
+    <script src="~/Scripts/DataTables-1.10.7/media/js/jquery.dataTables.min.js"></script>
+    <script src="~/Scripts/DataTables-1.10.7/media/js/jquery.dataTables.odata.js"></script>
+
+    <script>
+        $(function () {
+            $('#studentInfo').dataTable({
+
+                "sPaginationType": "full_numbers",
+                "aLengthMenu": [[20, 50, 100, -1], ["20", "50", "100", "All"]],
+                //"bProcessing": true,
+                //"bServerSide": true,
+                "sAjaxSource": "/odata/Students",
+                "aoColumns": [
+                                { "mData": "Name" },
+                                { "mData": "Surname" },
+                                { "mData": "Ci" },
+                                { "mData": "Birthdate" }
+                ],
+                "fnServerData": fnServerOData,
+                "iODataVersion": 3,
+                "bUseODataViaJSONP": false // set to true if using cross-domain requests
+            });
+
+            $('#studentInfo tfoot th').each(function () {
+                var title = $('#studentInfo thead th').eq($(this).index()).text();
+                $(this).html('<input type="text" placeholder="Search ' + title + '" />');
+            });
+
+            // DataTable
+            var table = $('#studentInfo').DataTable();
+
+            // Apply the search
+            table.columns().every(function () {
+                var that = this;
+
+                $('input', this.footer()).on('keyup change', function () {
+                    that
+                        .search(this.value)
+                        .draw();
+                });
+            });
+
+
+        });
+    </script>
+
+
+</head>
+<body>
+    <div style="max-width:750px">
+        <table cellpadding="0" cellspacing="0" border="0" class="display" id="studentInfo">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>CI</th>
+                    <th>Date of Birth</th>
+                </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>CI</th>
+                    <th>Date of Birth</th>
+                </tr>
+            </tfoot>
+
+            <tbody></tbody>
+        </table>
+    </div>
+</body>
+</html>

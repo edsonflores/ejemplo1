@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\PC-Edson\Documents\Visual Studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\SeleniumCalculatorTest.dll" total="8" errors="1" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-06-14" time="00:29:10">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.7905" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files\NUnit 2.6.4\bin" machine-name="EDSON" user="PC-Edson" user-domain="Edson" />
+  <culture-info current-culture="es-ES" current-uiculture="es-ES" />
+  <test-suite type="Assembly" name="C:\Users\PC-Edson\Documents\Visual Studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\bin\Debug\SeleniumCalculatorTest.dll" executed="True" result="Failure" success="False" time="188.968" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="SeleniumTests" executed="True" result="Failure" success="False" time="188.966" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="CalcTest" executed="True" result="Failure" success="False" time="188.964" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="TheCalcTest" executed="True" result="Failure" success="False" time="188.961" asserts="0">
+                <results>
+                  <test-case name="SeleniumTests.CalcTest.TheCalcTest(&quot;3*40+5&quot;,&quot;125&quot;)" executed="True" result="Success" success="True" time="16.231" asserts="2" />
+                  <test-case name="SeleniumTests.CalcTest.TheCalcTest(&quot;10+9&quot;,&quot;90&quot;)" executed="True" result="Failure" success="False" time="27.172" asserts="2">
+                    <failure>
+                      <message><![CDATA[  String lengths are both 2. Strings differ at index 0.
+  Expected: "90"
+  But was:  "19"
+  -----------^
+]]></message>
+                      <stack-trace><![CDATA[en SeleniumTests.CalcTest.TheCalcTest(String operation, String answer) en c:\Users\PC-Edson\Documents\Visual Studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\CalcTest.cs:línea 130
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SeleniumTests.CalcTest.TheCalcTest(&quot;0/0&quot;,&quot;Error&quot;)" executed="True" result="Success" success="True" time="26.492" asserts="2" />
+                  <test-case name="SeleniumTests.CalcTest.TheCalcTest(&quot;100/0+3&quot;,&quot;Infinity&quot;)" executed="True" result="Success" success="True" time="24.563" asserts="2" />
+                  <test-case name="SeleniumTests.CalcTest.TheCalcTest(&quot;10+9*\x03C0&quot;,&quot;38.2743338823&quot;)" executed="True" result="Success" success="True" time="22.772" asserts="2" />
+                  <test-case name="SeleniumTests.CalcTest.TheCalcTest(&quot;\x221A16/\x221A9*100&quot;,&quot;0.73029674334&quot;)" executed="True" result="Error" success="False" time="23.304" asserts="1">
+                    <failure>
+                      <message><![CDATA[OpenQA.Selenium.NoSuchElementException : Unable to locate element: {"method":"xpath","selector":"//div[@id='cwbt32']/div/span"}]]></message>
+                      <stack-trace><![CDATA[en OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:línea 1107
+en OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:línea 920
+en OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:línea 954
+en OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:línea 700
+en OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context) en c:\Projects\webdriver\dotnet\src\webdriver\By.cs:línea 167
+en OpenQA.Selenium.By.FindElement(ISearchContext context) en c:\Projects\webdriver\dotnet\src\webdriver\By.cs:línea 309
+en OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by) en c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:línea 330
+en SeleniumTests.CalcTest.TheCalcTest(String operation, String answer) en c:\Users\PC-Edson\Documents\Visual Studio 2013\Projects\SeleniumCalculatorTest\SeleniumCalculatorTest\CalcTest.cs:línea 117
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SeleniumTests.CalcTest.TheCalcTest(&quot;2^5*(1+2!-0.001)&quot;,&quot;95.968&quot;)" executed="True" result="Success" success="True" time="27.593" asserts="2" />
+                  <test-case name="SeleniumTests.CalcTest.TheCalcTest(&quot;/*-+9/8.01***/*-/^/2(22)))&quot;,&quot;0&quot;)" executed="True" result="Success" success="True" time="20.713" asserts="2" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
